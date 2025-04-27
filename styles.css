@@ -5,7 +5,6 @@
     font-size: 1.2rem;
     box-sizing: border-box;
     line-height: 1.6rem;
-    /* border: 1px solid red; */
 }
 :root {
     --contents-width: 900px;
@@ -102,8 +101,8 @@ p {
     gap: 3rem;
     margin-top: 2rem;
     align-items: flex-end;
-    border: 1px solid rebeccapurple;
 }
+
 #colored-box {
     background-color: var(--green-light);
     padding: 3rem 4.8rem;
@@ -113,6 +112,7 @@ p {
     max-width: 600px;
     flex: 1 1 auto;
 }
+
 #booking-form {
     margin-top: 2rem;
     min-width: 300px;
@@ -126,6 +126,7 @@ p {
     border-radius: none;
     box-shadow: 0 0 3px 1px var(--green-shadow);
 }
+
 #submit-btn {
     margin-top: 1.4rem;
     background-color: var(--accent);
@@ -145,7 +146,6 @@ p {
     max-width: 900px;
     text-align: end;
     justify-self: end;
-    border: 1px solid red;
 }
 
 /* footer styles */
